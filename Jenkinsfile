@@ -1,7 +1,7 @@
 node {
 
    def registryProjet='buildjenkins/'
-   def IMAGE="${registryProjet}app:4.2"
+   def IMAGE="${registryProjet}app:5.0"
 
     stage('Clone') {
           checkout scm
