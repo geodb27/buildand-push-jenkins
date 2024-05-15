@@ -1,7 +1,7 @@
 node {
 
    def registryProjet='dbouriaud-project/'
-   def IMAGE="${registryProjet}app:5.0"
+   def IMAGE="${registryProjet}app:${tag}"
 
     stage('Clone') {
           checkout scm
